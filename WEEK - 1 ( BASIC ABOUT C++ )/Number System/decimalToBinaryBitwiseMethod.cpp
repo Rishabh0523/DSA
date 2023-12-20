@@ -12,7 +12,7 @@ int decimalToBinaryMethod1(int n) {
         int bit = ( n & 1 );
         binaryno = bit*pow(10,i++) + binaryno;
         
-        n = n>>1;
+         n = n>>1;
     }
     
     return binaryno;
