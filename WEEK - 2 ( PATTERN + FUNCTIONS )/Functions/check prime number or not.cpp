@@ -3,6 +3,7 @@ using namespace std;
 
 bool checkPrimeNumber(int num){
     
+    int i=2;
     for(int i=2;i<num;i++){
         if(num%i==0){
             return false;
@@ -14,11 +15,13 @@ bool checkPrimeNumber(int num){
 
 int main()
 {
+    int num;
+    cin>>num;
     
- bool prime =checkPrimeNumber(1);
+ bool prime =checkPrimeNumber(num);
  
  if(prime){
-     cout<<"It's a prime number "<<endl;
+     cout<<"It's a prime number"<<endl;
  }
  
  else{
