@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string.h>
 using namespace std;
 
 int findLength(char ch[] , int size){
@@ -26,6 +27,7 @@ int main()
     int len =findLength(ch ,100);
     
     cout<<"Length of strings is : "<<len<<endl;
+    cout<<strlen(ch);
    
    
    
